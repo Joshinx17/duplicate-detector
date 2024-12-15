@@ -43,16 +43,13 @@ def browse_file2():
     if filepath:
         file2_path.set(filepath)
 
-# Create the main tkinter window
 root = tk.Tk()
 root.title("File Comparator")
 root.geometry("500x300")
 
-# Variables to hold file paths
 file1_path = tk.StringVar()
 file2_path = tk.StringVar()
 
-# UI Elements
 frame = tk.Frame(root, padx=10, pady=10)
 frame.pack(expand=True)
 
